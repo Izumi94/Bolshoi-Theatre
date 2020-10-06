@@ -1,0 +1,66 @@
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12 {
+    width: 100%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.align__center {
+    align-items: center;
+}
