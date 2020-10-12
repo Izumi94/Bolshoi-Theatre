@@ -10,10 +10,10 @@
 <body>
 
 
-    <section class="header">
+    <header class="header">
         <div class="social">
             <div class="social__container">
-                <a class="social__item">контактная информация</a>
+                <h3 class="social__item">контактная информация</h3>
                 <img class="social__img" src="./images/instagram.svg">
                 <img class="social__img" src="./images/facebook.svg">
                 <img class="social__img" src="./images/vk.svg">
@@ -21,29 +21,66 @@
             </div>
         </div>
 
-        </div>
-        <div class="header__row">
-            <a href="index.html"></a>
-            <nav class="nav">
-                <ul class="nav__menu">
-                    <li class="nav__item"><a class="nav__link" href="">ГЛАВНАЯ</a></li>
-                    <li class="nav__item"><a class="nav__link" href="">О ТЕАТРЕ</a></li>
-                    <li class="nav__item"><a class="nav__link" href="">НАШИ ПОСТАНОВКИ</a></li>
-                    <li class="nav__item"><a class="nav__link" href="">ПАРТНЕРЫ ТЕАТРА</a></li>
-                    <li class="nav__item"><a class="nav__link" href="">КОНТАКТЫ </a></li>
-                </ul>
-            </nav>
-            <nav>
-                <ul>
-                    <li class="nav__number"><a class="nav__link" href="">+7 495 123-45-67</a></li>
-                </ul>
-            </nav>
-        </div>
-        </div>
-        </div>
+        <div class="container">
+            <div class="header__row">
+                <a href="index.html"></a>
+                <nav class="nav">
+                    <ul class="nav__menu">
+                        <li class="nav__item"><a class="nav__link" href="">ГЛАВНАЯ</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">О ТЕАТРЕ</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">НАШИ ПОСТАНОВКИ</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">ПАРТНЕРЫ ТЕАТРА</a></li>
+                        <li class="nav__item"><a class="nav__link" href="">КОНТАКТЫ </a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li class="nav__number"><a class="nav__link" href="">+7 495 123-45-67</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="slider">
+                <div class="slider__info">
 
+                </div>
+                <div class="slider__image">
+                    <img class="slider__img" src="images/slider.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <section class="rating">
+        <div class="container align__center">
+            <div>
+                <img class="rating__img" src="./images/rating.png">
+            </div>
+            <div col-6>
+                <a class="rating__year">2018 2019 2020</a>
+            </div>
+            <div col-6>
+                <img class="rating__stars" src="./images/stars.svg">
+                <a class="rating__info">Лучший театр по мнению театральных критиков Парижа</a>
+            </div>
+
+        </div>
     </section>
+
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 3
+        });
+	</script>
+
+    <footer class="footer"> 
+        <div class="container">
+            <h5 class="footer__info">(с) Все права защищены. Большой театр. 2020</h5>
+            <h5 class="footer__dev">Разработано Izumi94</h5>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
