@@ -1,5 +1,8 @@
 @import './base.css';
 @import './variables.css';
 @import './fonts.css';
+@import './slick.css';
 
+@import './components/rating.css';
+@import './components/footer.css';
 @import './components/header.css';
